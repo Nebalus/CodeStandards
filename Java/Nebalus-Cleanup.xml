@@ -14,7 +14,7 @@
         <setting id="cleanup.useless_continue" value="true"/>
         <setting id="cleanup.remove_redundant_type_arguments" value="true"/>
         <setting id="cleanup.remove_unused_imports" value="true"/>
-        <setting id="cleanup.break_loop" value="false"/>
+        <setting id="cleanup.break_loop" value="true"/>
         <setting id="cleanup.pull_up_assignment" value="false"/>
         <setting id="cleanup.stringbuilder" value="false"/>
         <setting id="cleanup.no_super" value="false"/>
@@ -106,11 +106,12 @@
         <setting id="cleanup.unreachable_block" value="false"/>
         <setting id="cleanup.redundant_falling_through_block_end" value="true"/>
         <setting id="cleanup.switch" value="false"/>
+        <setting id="cleanup.also_simplify_lambda" value="true"/>
         <setting id="cleanup.number_suffix" value="false"/>
         <setting id="cleanup.remove_unnecessary_nls_tags" value="true"/>
         <setting id="cleanup.convert_to_switch_expressions" value="false"/>
         <setting id="cleanup.use_this_for_non_static_field_access" value="true"/>
-        <setting id="cleanup.static_inner_class" value="false"/>
+        <setting id="cleanup.static_inner_class" value="true"/>
         <setting id="cleanup.use_string_is_blank" value="false"/>
         <setting id="cleanup.add_missing_nls_tags" value="false"/>
         <setting id="cleanup.qualify_static_member_accesses_through_instances_with_declaring_class" value="true"/>
